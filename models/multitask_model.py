@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from clear_multi.unet_parts import *
+from net_parts import *
 
 
 def compute_scaling_features(magnitude):
